@@ -29,8 +29,8 @@ $('#nav').affix({
 	//var windowBottom = $(window).height();
 	var index=0;
 	$(document).scroll(function(){
-		var top = $('#skills').height()-$(window).scrollTop();
-		if(top<-200){
+		var top = $('#header').height()+$('#about').height()-$(window).scrollTop();
+		if(top<-100){
 			if(index==0){
 
 				$('.chart').easyPieChart({
