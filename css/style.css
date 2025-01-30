@@ -535,6 +535,11 @@ ol.type li a:hover {
 	color: #121d1f;
 	background: #A9F5A9;
 }
+/* Project Section */
+#project {
+	padding: 100px 0;
+	background: #f6f6f6;
+}
 /* Contact Section */
 #contact {
 	padding: 100px 0 40px 0;
